@@ -27,7 +27,8 @@ is made available by Rook.
 ## Detailed RFC
 
 A general overview of steps toward validating Rook:
- 1. Install a Rook (Ceph) cluster on Kubic-Project
+ 1. Install a Rook (Ceph) cluster on Kubic-Project to a heealthy Ceph state
+    with storage available.
  2. Create a persistent volume claim against Rook (Ceph) block storage, and
     test that the storage works for read and write and is persistent.
  3. Create a PVC against Rook (Ceph) file storage, and test that it works
